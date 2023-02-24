@@ -1,0 +1,5 @@
+[workspace]
+members = [
+    "src/alumina_lib",
+    "src/greeter"
+]
