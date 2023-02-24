@@ -3,3 +3,4 @@ members = [
     "src/alumina_lib",
     "src/greeter"
 ]
+resolver = "2"
