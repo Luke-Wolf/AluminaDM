@@ -1,6 +1,11 @@
 [workspace]
-members = [
-    "src/alumina_lib",
-    "src/greeter"
+members = [    
+    "src/daemon/daemon_app",
+    "src/daemon/daemon_lib",
+    "src/daemon/dependencies/tokio_uds_server",
+    "src/daemon/dependencies/login_stub",
+    "src/greeter/greeter_app",
+    "src/greeter/greeter_lib",
+    "src/shared/alumina_lib",
 ]
 resolver = "2"

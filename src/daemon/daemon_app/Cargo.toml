@@ -1,0 +1,17 @@
+[package]
+name = "daemon"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+#remote
+crossbeam = "0.8"
+anyhow = "1"
+
+#local
+alumina_lib = { path="../../shared/alumina_lib" }
+daemon_lib = { path="../daemon_lib" }
+login_stub = { path="../dependencies/login_stub" }
+tokio_uds_server = { path="../dependencies/tokio_uds_server"}
